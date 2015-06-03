@@ -1,0 +1,100 @@
+<!DOCTYPE html">
+<html lang="ja">
+<head>
+<meta charset="UTF-8"/>
+<meta name="keywords"content=""/>
+<meta name="viewport" content="width=device-width,intial-scale=1.0"/>
+<title></title>
+
+<script>
+<!--
+
+if(navigator.userAgent.indexOf('iphone') > 0||
+    navigator.userAgent.indexOf('ipod') > 0 ){
+        document.write('<link rel="stylesheet" href="">');
+          }else if(navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0){
+            document.write('<link rel="stylesheet" href="">');
+          }else{
+            document.write('<link rel="stylesheet" href="/">');
+  }
+
+-->
+</script>
+
+<script>
+$(window).load(function() {
+  $('.list').masonry({
+    itemSelector: '.list-box',
+    isFitWidth: true
+  });
+    });
+
+</script>
+
+</head>
+
+<body>
+  <div class="header">
+
+  </div><!-- ヘッダー-->
+
+  <div class="contents">
+
+        <!-- フレキシブルレイアウト-->
+          <div class="boxContainer">
+            <div class ="left-colunm">
+            </div><!-- レフトカラム-->
+
+             <div class="main-colunm">
+              <div class="pickup_contents">
+
+
+              <!-- 横並びリストを作る-->
+
+                 <div class="list">
+                    <div class="list-box">
+                        <div class="list-img"><a href=""><img src="" alt=""></a></div>
+                        <div class="list-text">
+                        <p></p>
+                        </div>
+                    </div>
+
+                    <div class="list-box">
+                        <div class="list-img"><a href=""><img src="" alt=""></a></div>
+                        <div class="list-text">
+                        <p></p>
+                        </div>
+                    </div>
+
+                      <div class="list-box">
+                        <div class="list-img"><a href=""><img src="" alt=""></a></div>
+                        <div class="list-text">
+                        <p></p>
+                        </div>
+                    </div>
+
+                     <div class="list-box">
+                        <div class="list-img"><a href=""><img src="" alt=""></a></div>
+                        <div class="list-text">
+                        <p></p>
+                        </div>
+                    </div>
+
+                 </div>
+
+                </div><!-- ピックアップコンテンツ-->
+              </div><!-- メインカラム-->
+
+            <div class ="right-colunm">
+            </div><!-- ライトカラム-->
+            </div><!-- ボックスコンテナ-->
+
+</div><!-- コンテンツ-->
+
+  <div class="footer">
+    <p>Copyright (C) All Right reserved</p>
+  </div>
+
+</body>
+
+</html>
